@@ -1,0 +1,20 @@
+QTableView
+{
+    color: #434343;
+    gridline-color: black;
+    background-color: white;
+    selection-color: #434343;
+    selection-background-color: #CAD4DB;
+    border: 1px groove #E4E4E4;
+    border-radius: 1px;
+}
+
+QTableView::item:!alternate:!selected
+{
+    background-color: white;
+}
+
+QTableView::item:alternate:!selected
+{
+    background-color: #F5F5F5;
+}

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>tableview.qss</file>
+    </qresource>
+</RCC>
